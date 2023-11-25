@@ -1,7 +1,7 @@
 # Ensure the virtual environment (venv) is set up before running the Makefile. 
 # Manually create the virtual environment using the following commands in your terminal:
 # python -m venv venv
-# Then activate.
+# Then activate. => source venv/bin/activate . When done, deactivate.
 
 install:
 	pip install --upgrade pip &&\
